@@ -1,0 +1,87 @@
+(scrum001)
+
+Em projetos tradicionais(Waterfall), você corre o risco de descobrir que estava errado depois de meses.Com o SCRUM, você descobre que estava errado em no máximo 30 dias
+
+Ágil
+-Rapidez na mudança e no desembaraço
+-Fazer coisas complexas de forma simples
+-Equipe comprometida com os objetivos
+-*Maior valor para o cliente*
+
+Ter a capacidade de responder rapidamente a mudanças
+
+Gestão de projetos ágil é com o foco no cliente, não no projeto.Entregar mais rápido pro cliente usufruir mais rápido
+
+SCRUM é um dos frameworks de gerenciamento de projetos ágeis;
+Projetos usando equipes pequenas e multidisciplinares produzem os melhores resultados 
+
+(scrum002)
+
+Razões para adotar o SCRUM
+-Desenvolvido e entregue em partes menores(2 a 4 semanas), com constante feedback dos usuários
+-Melhor gerenciamento de riscos(Redução de incertezas-O cliente sabe o que ele quer pq ele ta vendo e tals)
+-Compromentimento, motivação e transparência da equipe.(Daily meeting)
+-Maior valor pro negócio(Priorização do Backlog)
+-Usuários envolvidos durante todo o ciclo
+-Aplicação das lições aprendidas
+
+Características do time SCRUM
+-Equipes capazes de se autooganizarem
+-As tarefas são do time e todos são responsáveis
+-Forte comprometimento com os resultados
+
+Startups utilizam framework ágil pq elas trabalham muito com MVP(Minimum Viable Product)
+_____________________________
+Papéis e responsabilidades
+
+Product Owner(PO)
+-Representante da área de negócios
+-PO não é um comitê, é uma pessoa
+-Define as funcionalidades do software(Product Backlog)
+-Prioriza as funcionalidades de acordo com o valor do negócio
+-Garante que o time de desenvolvimento enteda os itens do Backlog no nível necessário
+
+Scrum Master(SM)
+-Garante o uso correto do Scrum(Garante que o time ta fazendo uso correto das cerimônias)
+-Scrum Master não é Gerente de Projetos(Não é ele que delega as atividades para o time)
+-Age como facilitador(Se o PO não consegue explicar as funcionalidades para o time, ele age como um facilitador)
+-Auxilia o Product Owner no planejamento e estimativas do backlog
+-Auxilia a equipe a remover impedimentos
+-Treina o time em autogerenciamento e interdisciplinaridade
+
+Time de Desenvolvimento(Time Dev)
+-Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para entregar o software funcionando
+______________________________
+Cerimônias do SCRUM
+
+Timebox: Tempo máximo para fazer uma cerimônia ou um sprint
+-Sprint é composta do planejamento da Sprint, reuniões diárias(daily meeting), revisão da Sprint(Review) e Retrospectiva da Sprint.
+--Planejamento da Sprint: Participam o PO, SM e o Dev Team, o PO explica pro time o que ele deseja naquela Sprint. O time de desenvolvimento vai tirar todas as dúvidas necessárias do que o PO quer nessa Sprint, depois o time DEV se reune para como vai fazer esses bagui
+--Daily Meeting:
+Participam o PO, SM e o Dev Team(Não sendo obrigatório o PO e o SM).O time de desenvolvimento fala o que fez no dia anterior, o que vai fazer nesse dia e se tem algum impedimento, essa reunião é feita de pé no mesmo horário e no mesm local
+--Revisão da Sprint:
+No último dia da Sprint, o DEV Team apresenta para o PO o trabalho feito, com um time box de 4 horas, apresenta tudo que desenvolveu, passo a passo
+--Retrospectiva da Sprint:
+DEV Team faz uma reunião para ser transparente e apontar os erros que a equipe teve, para que o time todo fique compromentido e melhore para que na próxima sprint não ocorra mais
+_____________________________
+Product Owner representa o profissional que tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços e os objetivos a serem alcançados.Ele visualiza o valor que vai ser agregado para a empresa e para o cliente que vai utilizar o produto construído.Define a ordem que as atividades serão desenvolvidas, e também valida se essas atividades estão sendo concluídas na sprint e agregando o valor esperado, e caso não esteja ele tem que planejar os ajustes necessários para que seja concluído nas próximas sprints, também é o responsável por cancelar uma sprint
+É de extrema importância que esteja claro que não tem diferença hierarquica entre o PO, o SM e o Dev Team
+O Scrum Master deve acima de tudo ser responsável por disseminar a cultura ágil do time, ensinando os conceitos de Scrum, ensinando o time a executar todas as cerimônias e principalmente ensinar o time a se tornar cada vez mais independente e auto gerenciável, até chegar o ponto da presença do SM não ser mais necessária no time
+
+Release Planning
+Liberação ou lançamento de software(em inglês: release) é o lançamento de uma nova versão oficial de produto de software.Cada vez que um produto de software é criado ou modificado, o fabricante e seus desenvolvedoes decidem sobre como distribuir ou o novo produto ou a modificação às pessoas que o utilizam.Não é obrigatório ter uma release ao final de cada sprint, mas quanto mais sprints vc acumular antes de soltar a release, maior a probabilidade de você ter algum problema durante o merge(junção dos códigos-fontes de cada sprint) e maior o tempo de testes necessários para garantir que todas as funcionalidades estejam funcionando 
+Existe dois tipos de releaze planning:
+-Release Planning de Múltiplas Squads:Vários times de desenvolvimento agrupados fazendo coisas distintas que pode ou não ter co-relação entre as atividades, mas que ao final da sprint devem ser agrupadas em uma única release para ser implementadas em produção.Tipo de release planning técnica, em que a complexidade consiste nas várias entregas distintas, de time distintitos, mas que precisam obedecer as mesmas técnicas, para que podam subir juntas para a produção sem que a entrega de um squad impacte na entrega de outra squad.Não tem ação direta do PO.
+
+-Release Planning de Projeto:
+PO possui uma demanda mt grande e que será necessário quebrar a entrega em várias histórias, é importante que o PO tenha uma senioridade, pois deve compreender a dimensão da demanda, de cada história, e quebrar ela no máximo que puder.É importante que quando o PO receba essa demanda dos stakeholders, ele saber e falar pra eles que é uma demanda grande e que vai demorar pra ser entregue, deve priorizar as histórias e priorizar as de maior valor primeiro, e se possível, já testar com o cliente, e captando o retorno para ir adaptando a solução ao longo do desenvolvimento
+
+(scrum003)
+(scrum004)
+(scrum005)
+_____________________________
+Transformação digital é um processo no qual as empresas fazem uso da tecnologia para melhorar o desempenho, aumentar o alcance e garantir resultados melhores. É uma mudança estrutural nas organizações dando um papel essencial para a tecnologia
+_______________________________
+(scrum006)
+
+

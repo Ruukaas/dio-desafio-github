@@ -1,0 +1,77 @@
+Git foi criado por Linus Torvalds
+SHA significa Secure Hash Algorithm, é um conjunto de funções hash criptográficas projetadas pela NSA(Agência de Segurança Nacional dos EUA) ,a saída da encriptação gera um conjunto de caracteres identificador de 40 dígitos
+
+Os 3 tipos básicos de objetos internos do Git são:
+
+Blobs
+-a funçao git hash retorna o sha1 do que foi passado, ela espera receber um arquivo
+-utilizando o comando openssl sha1 também retorna o sha1 do que foi passado, mas o git manipula o que foi passado através de um objeto aonde o arquivo fica guardado chamado blob, esse objeto vai ter metadados(tipo, tamanho da string ou aquivo, uma "\0" e o conteúdo de fato do arquivo(no formato de sha1 desse arquivo?)).Por isso que ao pedir o sha1 de um mesmo arquivo ou texto com o comando openssl e com a função do git eles retornam chaves diferentes
+
+Trees
+-As trees armazenam e apontam para blobs
+-Também contem metadados(O "/0", ela aponta para um blob, e ela também guarda o nome do arquivo)
+-Responsável por montar a estrutura de onde estão localizados os arquivos
+-Podem apontar para blobs ou outras trees
+-Também armazenam o sha1 dos metadados?
+ 
+Commits
+-Aponta para uma arvóre
+-Aponta para o último commit realizado
+-Aponta para um autor
+-Aponta para uma mensagem
+-Também tem um timestamp:a data e hora que ele foi criado
+-Também possui um sha1
+
+Chave SSH
+Forma de estabalecer uma conexão segura e encriptada entre duas máquinas(o servidor do github e a máquina local)
+
+Git init
+Criando um repositório do git dentro da pasta
+
+(git001)
+
+Untracked: o Git não tem conhecimento do arquivo
+Tracked: o Git tem conhecimento
+Dentro do track, temos 3 classificações
+Unmodified: Um arquivo dentro do repositório do git que não foi modificado
+Modified: Um arquivo dentro do repositório do git foi modificado 
+O git sabe se o arquivo foi modificado ou não pq ele compara o sha1 do arquivo
+Staged: aguardando para fazer parte de um commit
+Se a gente pega um arquivo unmodified e remove esse arquivo, esse arquivo volta para untracked
+Git add pega um arquivo e move para um staged(mesmo que seja um untracked)
+Git add * adiciona todos os arquivos
+O commit retorna todos os arquivos pra unmodified
+Um commit integra os seus arquivos do seu repositório de trabalho(A pasta que ta os arquivos) para seu repositório local
+
+
+Git status nos ajuda a monitorar os status dos arquivos
+
+Para dizer qual o repositório remoto que o seu repositório local será linkado vc usa o comando git remote add origin _link do repositório_
+o origin é o apelido para que a gente não precise digitar o link do repositório toda vez
+Para adicionar no repositório remoto usamos o comando git push _apelido(provavelmente origin)_ master(a branch)
+
+git commit
+	-m: mensagem do Commit
+
+git clone
+Clona um repositório remoto para uma pasta local
+
+readme
+Pagina inicial do seu repositório
+
+gitignore
+Adicionar alguns arquivos que vc n quer fazer a versionação
+
+git branch
+Mostra as branches do repositório
+  -D: remove uma branch
+
+git checkout
+Troca de branches
+	-B: cria uma nova branch
+
+Merge: juntar uma branch com outra
+
+git merge _nome da branch_
+Junta a branch citada com a branch atual
+

@@ -1,0 +1,17 @@
+#contratodecompromisso
+#teamFullstackJS
+
+Soft Skills:Apaixonado por tecnologia, aprendizado contínuo, trazer inovações e soluções, organização, trabalho em equipe
+
+Metodologia de trabalho: SCRUM, Kanbam
+
+Hard skills: JS, BD, MySQL, SQLServer, MongoDB, Docker, AWS, React com RX.js, Redux(Novo formato)
+
+Arquitetura baseada em microsserviços
+
+O que chama atenção da Tech Recruiter:Ter um linkedin ativo,atualizado, foto, ser sincero
+
+Destaque:sua curiosidade, paixão pela área, vontade de estar na eduzz
+
+Dica de ouro: Se entreguem no bootcamp e curiosidade
+
